@@ -1,0 +1,28 @@
+== ablation: medic-only learning (heuristic UAVs)
+  [mantis] ep 40/500 return 2.459 score 2.460 pl -0.002 vl 0.490 ent 0.042 80s
+  [mantis] ep 80/500 return 2.371 score 2.418 pl -0.004 vl 0.470 ent 0.070 152s
+  [mantis] ep 120/500 return 1.789 score 2.411 pl -0.004 vl 0.247 ent 0.057 220s
+  [mantis] ep 160/500 return 0.872 score 2.227 pl -0.000 vl 0.490 ent 0.044 286s
+  [mantis] ep 200/500 return 1.917 score 2.294 pl -0.001 vl 0.579 ent 0.083 373s
+  [mantis] ep 240/500 return 2.964 score 2.648 pl 0.000 vl 0.454 ent 0.040 479s
+  [mantis] ep 280/500 return 0.665 score 2.171 pl -0.000 vl 0.447 ent 0.062 579s
+  [mantis] ep 320/500 return 1.227 score 2.119 pl -0.001 vl 0.330 ent 0.047 707s
+  [mantis] ep 360/500 return 1.852 score 2.331 pl -0.001 vl 0.224 ent 0.056 790s
+  [mantis] ep 400/500 return 1.750 score 2.378 pl -0.002 vl 0.832 ent 0.108 844s
+  [mantis] ep 440/500 return 1.286 score 2.277 pl 0.001 vl 0.343 ent 0.041 913s
+  [mantis] ep 480/500 return -0.613 score 1.959 pl -0.001 vl 0.489 ent 0.040 1005s
+saved abl_mediconly_last
+== ablation: UAV-only learning (heuristic medics)
+  [mantis] ep 40/500 return 1.444 score 2.166 pl -0.021 vl 0.848 ent 0.001 88s
+  [mantis] ep 80/500 return 0.907 score 2.184 pl 0.011 vl 1.347 ent 0.000 175s
+  [mantis] ep 120/500 return 1.442 score 2.178 pl -0.000 vl 1.013 ent 0.000 270s
+  [mantis] ep 160/500 return 0.662 score 2.145 pl 0.001 vl 1.126 ent 0.000 358s
+  [mantis] ep 200/500 return 0.084 score 1.968 pl 0.002 vl 0.806 ent 0.000 438s
+  [mantis] ep 240/500 return 0.292 score 2.203 pl 0.006 vl 1.238 ent 0.000 505s
+  [mantis] ep 280/500 return 1.474 score 2.263 pl 0.002 vl 2.046 ent 0.000 589s
+  [mantis] ep 320/500 return 2.597 score 2.366 pl -0.001 vl 1.106 ent 0.000 678s
+  [mantis] ep 360/500 return 2.884 score 2.549 pl 0.003 vl 1.482 ent 0.001 733s
+  [mantis] ep 400/500 return 2.121 score 2.459 pl -0.004 vl 1.209 ent 0.000 785s
+  [mantis] ep 440/500 return 1.734 score 2.430 pl -0.001 vl 1.776 ent 0.000 844s
+  [mantis] ep 480/500 return 1.963 score 2.317 pl -0.000 vl 0.951 ent 0.000 904s
+saved abl_uavonly_last

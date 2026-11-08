@@ -1,0 +1,42 @@
+== MANTIS-MAPPO (proposed): BC warm start + team critic + KL anchor
+  [mantis] ep 40/500 return 1.490 score 2.303 pl 0.002 vl 0.414 ent 0.017 85s
+  [mantis] ep 80/500 return 2.100 score 2.347 pl -0.000 vl 0.607 ent 0.018 163s
+  [mantis] ep 120/500 return 0.969 score 2.167 pl -0.007 vl 0.417 ent 0.035 252s
+  [mantis] ep 160/500 return 1.956 score 2.384 pl 0.002 vl 0.585 ent 0.028 340s
+  [mantis] ep 200/500 return 1.184 score 2.195 pl -0.003 vl 0.725 ent 0.033 418s
+  [mantis] ep 240/500 return 1.281 score 2.315 pl 0.002 vl 1.012 ent 0.040 501s
+  [mantis] ep 280/500 return 0.897 score 2.166 pl 0.002 vl 0.333 ent 0.036 585s
+  [mantis] ep 320/500 return 1.670 score 2.290 pl -0.005 vl 0.431 ent 0.042 667s
+  [mantis] ep 360/500 return 0.538 score 2.018 pl -0.002 vl 0.998 ent 0.054 746s
+  [mantis] ep 400/500 return 1.745 score 2.340 pl 0.007 vl 0.358 ent 0.041 834s
+  [mantis] ep 440/500 return 0.985 score 2.268 pl -0.001 vl 0.557 ent 0.071 920s
+  [mantis] ep 480/500 return 1.747 score 2.344 pl 0.003 vl 0.722 ent 0.041 1005s
+saved mantis_mappo_last
+== MAPPO from scratch
+  [mappo] ep 40/500 return -2.231 score 1.661 pl 0.004 vl 0.749 ent 1.178 68s
+  [mappo] ep 80/500 return -3.825 score 1.387 pl -0.001 vl 0.789 ent 1.585 131s
+  [mappo] ep 120/500 return -3.172 score 1.534 pl -0.001 vl 0.954 ent 1.762 198s
+  [mappo] ep 160/500 return -2.288 score 1.633 pl 0.004 vl 0.524 ent 1.478 263s
+  [mappo] ep 200/500 return -2.709 score 1.672 pl -0.002 vl 0.854 ent 1.302 335s
+  [mappo] ep 240/500 return -3.062 score 1.545 pl -0.019 vl 0.779 ent 1.548 401s
+  [mappo] ep 280/500 return -1.437 score 1.852 pl -0.000 vl 0.829 ent 1.315 471s
+  [mappo] ep 320/500 return -1.972 score 1.795 pl 0.008 vl 0.787 ent 1.589 541s
+  [mappo] ep 360/500 return -3.050 score 1.471 pl -0.003 vl 0.739 ent 1.591 614s
+  [mappo] ep 400/500 return -2.165 score 1.680 pl -0.001 vl 0.496 ent 1.449 696s
+  [mappo] ep 440/500 return -2.374 score 1.593 pl 0.003 vl 0.415 ent 1.515 770s
+  [mappo] ep 480/500 return -1.901 score 1.657 pl 0.004 vl 0.576 ent 1.621 834s
+saved mappo_last
+== IPPO from scratch
+  [ippo] ep 40/500 return -2.261 score 1.750 pl -0.007 vl 1.856 ent 1.458 64s
+  [ippo] ep 80/500 return -3.378 score 1.459 pl -0.001 vl 1.469 ent 1.614 128s
+  [ippo] ep 120/500 return -3.483 score 1.498 pl -0.002 vl 1.066 ent 1.609 192s
+  [ippo] ep 160/500 return -3.903 score 1.458 pl -0.010 vl 2.466 ent 1.546 253s
+  [ippo] ep 200/500 return -1.217 score 1.821 pl -0.004 vl 1.454 ent 1.523 322s
+  [ippo] ep 240/500 return -1.078 score 1.751 pl -0.005 vl 0.801 ent 1.502 393s
+  [ippo] ep 280/500 return -0.888 score 1.842 pl -0.001 vl 1.012 ent 1.395 461s
+  [ippo] ep 320/500 return -0.722 score 1.788 pl -0.006 vl 1.038 ent 1.375 546s
+  [ippo] ep 360/500 return -1.821 score 1.788 pl 0.001 vl 1.495 ent 1.343 647s
+  [ippo] ep 400/500 return -1.289 score 1.897 pl 0.003 vl 1.789 ent 1.457 765s
+  [ippo] ep 440/500 return -0.175 score 1.985 pl 0.014 vl 0.611 ent 1.717 875s
+  [ippo] ep 480/500 return 0.591 score 2.077 pl 0.002 vl 1.657 ent 1.087 958s
+saved ippo_last

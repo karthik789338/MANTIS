@@ -1,0 +1,28 @@
+== VDN
+  [vdn] ep 40/500 return -3.100 score 1.546 loss 0.0463 eps 0.87 65s
+  [vdn] ep 80/500 return -3.149 score 1.513 loss 0.0501 eps 0.74 139s
+  [vdn] ep 120/500 return -1.431 score 1.752 loss 0.0403 eps 0.60 231s
+  [vdn] ep 160/500 return -2.556 score 1.571 loss 0.0501 eps 0.47 333s
+  [vdn] ep 200/500 return 1.114 score 2.205 loss 0.0505 eps 0.34 442s
+  [vdn] ep 240/500 return -0.029 score 2.045 loss 0.0489 eps 0.20 543s
+  [vdn] ep 280/500 return -0.919 score 1.725 loss 0.0701 eps 0.07 649s
+  [vdn] ep 320/500 return -1.043 score 1.857 loss 0.0545 eps 0.05 729s
+  [vdn] ep 360/500 return -0.462 score 2.034 loss 0.0523 eps 0.05 837s
+  [vdn] ep 400/500 return 0.164 score 1.944 loss 0.0451 eps 0.05 940s
+  [vdn] ep 440/500 return -0.451 score 1.896 loss 0.0485 eps 0.05 1008s
+  [vdn] ep 480/500 return 0.911 score 2.122 loss 0.0547 eps 0.05 1071s
+saved vdn_last
+== QMIX
+  [qmix] ep 40/500 return -1.646 score 1.697 loss 0.0263 eps 0.87 72s
+  [qmix] ep 80/500 return -2.372 score 1.646 loss 0.0521 eps 0.74 137s
+  [qmix] ep 120/500 return -2.107 score 1.645 loss 0.0404 eps 0.60 213s
+  [qmix] ep 160/500 return -0.543 score 1.913 loss 0.0433 eps 0.47 284s
+  [qmix] ep 200/500 return -1.588 score 1.669 loss 0.0328 eps 0.34 346s
+  [qmix] ep 240/500 return 0.183 score 2.065 loss 0.0472 eps 0.20 416s
+  [qmix] ep 280/500 return 0.157 score 1.892 loss 0.0348 eps 0.07 494s
+  [qmix] ep 320/500 return 0.160 score 2.008 loss 0.0382 eps 0.05 573s
+  [qmix] ep 360/500 return -1.192 score 1.597 loss 0.0349 eps 0.05 644s
+  [qmix] ep 400/500 return -0.704 score 1.911 loss 0.0250 eps 0.05 709s
+  [qmix] ep 440/500 return -0.236 score 1.883 loss 0.0305 eps 0.05 788s
+  [qmix] ep 480/500 return -2.782 score 1.444 loss 0.0445 eps 0.05 861s
+saved qmix_last
