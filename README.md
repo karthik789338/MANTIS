@@ -1,8 +1,8 @@
 # MANTIS — Mission-Aware Network for Triage, Intelligence, and Survivability
 
 A simulator and coordination framework for resilient, casualty-aware multi-UAV / multi-medic
-operations: it covers the six experimental conditions, the phased roadmap E0–E8c, and the
-experiments X1–X10 from the research plan.
+operations: it covers six experimental conditions, the phased roadmap, and the
+experiments X1–X10.
 
 ## Layout
 
